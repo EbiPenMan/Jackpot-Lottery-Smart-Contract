@@ -43,7 +43,7 @@ To deploy and interact with this smart contract, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/chista0x/jackpot-lottery-smart-contract.git
+   git clone https://github.com/EbiPenMan/Jackpot-Lottery-Smart-Contract.git
    cd jackpot-lottery-smart-contract
    ```
 

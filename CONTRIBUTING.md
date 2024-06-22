@@ -4,11 +4,11 @@ We welcome contributions from the community to improve the Jackpot Lottery Smart
 
 ## Bug Reports
 
-To report a bug, please open a new issue on our [GitHub repository](https://github.com/chista0x/jackpot-lottery-smart-contract/issues) and provide a detailed description of the bug, including steps to reproduce it.
+To report a bug, please open a new issue on our [GitHub repository](https://github.com/EbiPenMan/Jackpot-Lottery-Smart-Contract/issues) and provide a detailed description of the bug, including steps to reproduce it.
 
 ## Feature Requests
 
-If you have a feature request or an idea for improving the project, please open a new issue on our [GitHub repository](https://github.com/chista0x/jackpot-lottery-smart-contract/issues) and describe your proposed feature or enhancement.
+If you have a feature request or an idea for improving the project, please open a new issue on our [GitHub repository](https://github.com/EbiPenMan/Jackpot-Lottery-Smart-Contract/issues) and describe your proposed feature or enhancement.
 
 ## Pull Requests
 
