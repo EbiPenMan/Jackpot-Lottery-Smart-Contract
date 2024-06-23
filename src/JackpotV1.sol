@@ -7,7 +7,6 @@ contract JackpotV1 {
     //                                       CONSTANTS                                           //
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    uint256 public constant TICKET_PRICE = 0.0055 ether;
     uint256 public constant OWNER_FEE_PERCENT = 10;
     uint256 public constant DRAW_INTERVAL = 1 weeks;
     uint256 public constant TICKET_PRICE_ETH = 0.00055 ether; // on development time is 2$
@@ -88,7 +87,7 @@ contract JackpotV1 {
     /// @param redNumbers An array containing the red number for each ticket.
     function buyTicket(uint8[5][] memory whiteNumbersArray, uint8[] memory redNumbers) public payable {
         if (whiteNumbersArray.length != redNumbers.length) revert MismatchedInputLengths();
-        uint256 totalCost = TICKET_PRICE * whiteNumbersArray.length;
+        uint256 totalCost = TICKET_PRICE_ETH * whiteNumbersArray.length;
         if (msg.value != totalCost) revert IncorrectTotalTicketPrice();
 
         Draw storage draw = draws[draws.length - 1];
